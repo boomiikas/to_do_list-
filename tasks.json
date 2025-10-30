@@ -8,5 +8,20 @@
         "id": 2,
         "task": "Learning FastAPI",
         "done": false
+    },
+    {
+        "id": 3,
+        "task": "washing",
+        "done": true
+    },
+    {
+        "id": 4,
+        "task": "DS assignment",
+        "done": false
+    },
+    {
+        "id": 5,
+        "task": "Frontend",
+        "done": false
     }
 ]

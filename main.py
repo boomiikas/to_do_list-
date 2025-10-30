@@ -63,6 +63,10 @@ def all_clear():
 
 
 @app.post("/chat")
-def chat_with_agent(prompt: str):
-    response = ask_agent(prompt)
-    return {"response": response}
+async def chat(prompt: str):
+    try:
+        response = ask_agent(prompt)
+        return {"response": response}
+    except Exception as e:
+        print(f"Error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
