@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "task": "washing clothes",
+        "done": true
+    },
+    {
+        "id": 2,
+        "task": "Learning FastAPI",
+        "done": false
+    }
+]

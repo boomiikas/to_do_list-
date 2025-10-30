@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Byte-code files
+*.pyc
+*.pyo
+__pycache__/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency management
+pip-log.txt
+
+# Log files and temporary data
+*.log
+*.tmp
+
+# Sensitive information
+config.ini
+.env
